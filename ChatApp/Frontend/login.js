@@ -16,9 +16,18 @@ function login(e){
     .then(res=>{
         res
         alert("Login Successfully")
+        localStorage.setItem('token', res.data.token)
     })
     .catch(err=>{
         err
         console.log(err, "Login Error");
+        if(err.status==401){
+            alert('User not Authorized')
+
+        }
+        else{
+           alert('User not found')
+        }
+
     })
 }
