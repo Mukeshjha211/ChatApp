@@ -1,0 +1,30 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 3rem;
+    padding-bottom: 10px;
+
+}
+
+body {
+    background-color: #ccc
+}
+
+.right {
+    background-color: rgb(12, 4, 4);
+    color: white;
+    padding: 7px;
+    border-radius: 6px;
+    float: right;
+    clear: both;
+}
+
+.left {
+    margin: 5px;
+    background-color: #ccc;
+    color: black;
+    padding: 7px;
+    border-radius: 6px;
+    float: left;
+    clear: both;
+}
